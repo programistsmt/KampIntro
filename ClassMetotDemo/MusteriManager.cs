@@ -31,12 +31,12 @@ namespace ClassMetotDemo
             Console.WriteLine("Lütfen müşteri doğum tarihini giriniz..");
             yeni.DTarihi = Convert.ToInt16(Console.ReadLine());
 
-
+            
             Console.WriteLine("Yeni müşteri eklenmiştir");
             Console.WriteLine("------------------------");
-            Console.WriteLine(yeni.ID + " " + yeni.AdSoyad + " " +yeni.DTarihi);
-
-
+         
+           Console.WriteLine(yeni.ID + " " + yeni.AdSoyad + " " +yeni.DTarihi);
+            
         }
 
         public void MusteriSil()

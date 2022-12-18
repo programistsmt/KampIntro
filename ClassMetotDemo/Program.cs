@@ -37,14 +37,16 @@ switch (tercih)
 
          break;
     default:
+        Console.WriteLine("Yanlış tuşa bastınız.");
         break;
 }
 int tus;
-Console.WriteLine("Yanlış tuşa bastınız.Lütfen yeni müşteri eklemek için 1'e basın");
+Console.WriteLine("Lütfen yeni müşteri eklemek için 1'e basın");
 tus = Convert.ToInt16(Console.ReadLine());
 if (tus == 1)
 {
     p.MusteriEkleme();
+    
     
 }
 else
@@ -65,7 +67,7 @@ switch (tercih1)
     default:
         break;
 }
-Console.WriteLine("Hoşçakalın");
+Console.WriteLine("Hoşcakalın");
 
 
 
